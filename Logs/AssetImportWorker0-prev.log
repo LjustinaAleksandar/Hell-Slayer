@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16191 MB
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16191 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/acolj/Desktop/programs/Hell Slayer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53633
+57366
 Successfully changed project path to: C:/Users/acolj/Desktop/programs/Hell Slayer
 C:/Users/acolj/Desktop/programs/Hell Slayer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -30,12 +30,12 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   
     VRAM:     5980 MB
-    Driver:   27.21.14.6589
+    Driver:   27.21.14.6627
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,627 +43,500 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.005319 seconds.
+Registered in 0.005832 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.398 seconds
+- Completed reload, in  3.154 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001200 seconds.
+Registered in 0.001017 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.489 seconds
+- Completed reload, in  1.203 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.7 MB.
-System memory in use after: 75.7 MB.
+System memory in use before: 75.5 MB.
+System memory in use after: 75.5 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 1981.
-Total: 3.338400 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.774700 ms  DeleteObjects: 0.250200 ms)
+Total: 3.326600 ms (FindLiveObjects: 0.292900 ms CreateObjectMapping: 0.103400 ms MarkObjects: 2.689700 ms  DeleteObjects: 0.239000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb6b973b56d4950603f14bb7cf1d6ca') in 0.034838 seconds
-  Import took 0.038019 seconds .
+  path: Assets/BlenderAssets/Glock18.blend
+  artifactKey: Guid(6f286b3a97a0f2d418ec06366d069895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/Glock18.blend using Guid(6f286b3a97a0f2d418ec06366d069895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff00f48e1ec3b8a8fd625be71272f22') in 0.399417 seconds
+  Import took 0.403745 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.956585 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes
-  artifactKey: Guid(dcfccf88ee27f35419e1c43050ad4505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes using Guid(dcfccf88ee27f35419e1c43050ad4505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a0a76e82a7199f79d1885c94845666') in 0.011163 seconds
-  Import took 0.014878 seconds .
+  Time since last request: 225.470858 seconds.
+  path: Assets/BlenderAssets/Glock18.blend
+  artifactKey: Guid(6f286b3a97a0f2d418ec06366d069895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/Glock18.blend using Guid(6f286b3a97a0f2d418ec06366d069895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72566b87e0253f6795ddd60b3f9cd427') in 0.303546 seconds
+  Import took 0.308381 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.098103 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_Ceiling_01_snaps002.asset
-  artifactKey: Guid(dd0eddeb229771a4a9f0ceb2eaac5421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_Ceiling_01_snaps002.asset using Guid(dd0eddeb229771a4a9f0ceb2eaac5421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bc4c0cc737042aba8f21860f7505cf') in 0.115217 seconds
-  Import took 0.118368 seconds .
+  Time since last request: 169.428504 seconds.
+  path: Assets/BlenderAssets/Glock18.blend1
+  artifactKey: Guid(dc13e0c2013fd5f48998a896a8d74d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/Glock18.blend1 using Guid(dc13e0c2013fd5f48998a896a8d74d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2ab4388127592f0cb84a032f3902ec') in 0.006718 seconds
+  Import took 0.010401 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Ceiling_03_snaps002.asset
-  artifactKey: Guid(10465071d2149ef489a65019a566a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Ceiling_03_snaps002.asset using Guid(10465071d2149ef489a65019a566a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143a08adab0be53ffb78b3b83cdd9bbc') in 0.032845 seconds
-  Import took 0.036441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Hale_Floor_01_Side_snaps002.asset
-  artifactKey: Guid(d9b0661eddd2fd7468febed5208baf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Hale_Floor_01_Side_snaps002.asset using Guid(d9b0661eddd2fd7468febed5208baf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc66a54c5e9732c450a0008eac51529') in 0.030350 seconds
-  Import took 0.033609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_FloorCeiling_02_snaps002.asset
-  artifactKey: Guid(e3e1d9963f40a10439cfd030868cb4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_FloorCeiling_02_snaps002.asset using Guid(e3e1d9963f40a10439cfd030868cb4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5d52095ee8e1866a3899083e2facef') in 0.030436 seconds
-  Import took 0.034694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Ceiling_01_snaps002.asset
-  artifactKey: Guid(8c9c3bcbfbb21c44e9d07763901aae1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Ceiling_01_snaps002.asset using Guid(8c9c3bcbfbb21c44e9d07763901aae1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31af0e37b87a6615c6929d9e5814eba6') in 0.030350 seconds
-  Import took 0.033787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_FloorCeiling_01_snaps002.asset
-  artifactKey: Guid(07ae09abf6445c843975328e2a063842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_FloorCeiling_01_snaps002.asset using Guid(07ae09abf6445c843975328e2a063842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd6c38bb7eb9dabc4918e3f70560589') in 0.031303 seconds
-  Import took 0.034982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Ceiling_02_snaps002.asset
-  artifactKey: Guid(abefcae93c34e904bb0da9174878a67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Ceiling_02_snaps002.asset using Guid(abefcae93c34e904bb0da9174878a67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5dd75df18fcc91f590b66128bb88fc') in 0.034610 seconds
-  Import took 0.038308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Ceiling_02_snaps002.asset
-  artifactKey: Guid(9233aa5f07d040b418cc063df7de7c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Ceiling_02_snaps002.asset using Guid(9233aa5f07d040b418cc063df7de7c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c5c0488d9810a22384cc6d9d37a7ee') in 0.031693 seconds
-  Import took 0.036245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Hale_Floor_01_snaps002.asset
-  artifactKey: Guid(d04e6cb0ef6445f41be2b427cf471b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Hale_Floor_01_snaps002.asset using Guid(d04e6cb0ef6445f41be2b427cf471b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b222ff700f8b66bc8bd86d7dfacb4cc9') in 0.020198 seconds
-  Import took 0.025222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Floor_04_snaps002.asset
-  artifactKey: Guid(53b90a0878fa7fe498c87c0fbb3e8ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Floor_04_snaps002.asset using Guid(53b90a0878fa7fe498c87c0fbb3e8ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b1c850194949a8e2805fe535d5b177') in 0.034252 seconds
-  Import took 0.037418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_FloorCeiling_02_snaps003.asset
-  artifactKey: Guid(7045706ada230c04ebce293026f209e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_FloorCeiling_02_snaps003.asset using Guid(7045706ada230c04ebce293026f209e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578b56f6469a66fffa0c18ece5796741') in 0.029703 seconds
-  Import took 0.033605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_Floor_01_snaps002.asset
-  artifactKey: Guid(22fbef0d7fd38cc47a2248bf696abde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_Floor_01_snaps002.asset using Guid(22fbef0d7fd38cc47a2248bf696abde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d920a8b9733f36f61411210493b3777') in 0.027598 seconds
-  Import took 0.031251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Ceiling_01_snaps002.asset
-  artifactKey: Guid(075f0b6c2f0faa6439d37bb1954dd479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Ceiling_01_snaps002.asset using Guid(075f0b6c2f0faa6439d37bb1954dd479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82eacb0156a1f7a6212ebeea7ba4c4a') in 0.029235 seconds
-  Import took 0.032902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Floor_01_snaps002.asset
-  artifactKey: Guid(5aeb4ae3d481c5b44a9c43aef243a45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Floor_01_snaps002.asset using Guid(5aeb4ae3d481c5b44a9c43aef243a45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f584a7530659411d92ad84beaa7cdf1') in 0.026716 seconds
-  Import took 0.030508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_Ceiling_02_snaps002.asset
-  artifactKey: Guid(e305c76c8b2e0a64281d790f5a5eca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_Ceiling_02_snaps002.asset using Guid(e305c76c8b2e0a64281d790f5a5eca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2f4be4956261a1a7dfffc9cfce79ee') in 0.030629 seconds
-  Import took 0.033819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Floor_02_snaps002.asset
-  artifactKey: Guid(6bc00f10cca6e7c4cb466f070fcc23a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Floor_02_snaps002.asset using Guid(6bc00f10cca6e7c4cb466f070fcc23a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48632e553b99cdc861714023d8c2aba3') in 0.028645 seconds
-  Import took 0.032199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_Floor_02_snaps002.asset
-  artifactKey: Guid(a6bd046d29a124c4f9baaf1895533fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_Floor_02_snaps002.asset using Guid(a6bd046d29a124c4f9baaf1895533fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5511eddb5d796b9d1fb11633cd8f3a8d') in 0.020921 seconds
-  Import took 0.024749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Floor_01_snaps002.asset
-  artifactKey: Guid(6dcda1e07f9da584bbba1a0870b33d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Floor_01_snaps002.asset using Guid(6dcda1e07f9da584bbba1a0870b33d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d5c3b5ea7143137f5f3f51495b4169') in 0.028770 seconds
-  Import took 0.032007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Floor_02_snaps002.asset
-  artifactKey: Guid(714e1841bbf33af49b33663260e513b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_Floor_02_snaps002.asset using Guid(714e1841bbf33af49b33663260e513b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2045b980328f254d2bcac35faa4f4a72') in 0.030858 seconds
-  Import took 0.034562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_FloorCeiling_02_snaps002.asset
-  artifactKey: Guid(acdfa7101d1f8d541a5ade12339d0b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_FloorCeiling_02_snaps002.asset using Guid(acdfa7101d1f8d541a5ade12339d0b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54955a83705ab804e3fdd13e064d0218') in 0.027754 seconds
-  Import took 0.030826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Floor_03_snaps002.asset
-  artifactKey: Guid(0a4612e66a5036042aff416d5aef295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Gen_Floor_03_snaps002.asset using Guid(0a4612e66a5036042aff416d5aef295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab95b32d98306f5a463e9ad3a6caa140') in 0.028480 seconds
-  Import took 0.031963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_FloorCeiling_01_snaps002.asset
-  artifactKey: Guid(c503571b909a1c649b59435ec103dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Deck_FloorCeiling_01_snaps002.asset using Guid(c503571b909a1c649b59435ec103dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0d27da1b9edb9dd39c4919f2e2cf32') in 0.028557 seconds
-  Import took 0.031999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_FloorCeiling_01_snaps002.asset
-  artifactKey: Guid(2d0d59bd20d6bd849ad3d14df893a785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/Quart_FloorCeiling_01_snaps002.asset using Guid(2d0d59bd20d6bd849ad3d14df893a785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d064b3e81192301521b6a2c65d263fd') in 0.028688 seconds
-  Import took 0.032280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/MergedCeilingSupport.asset
-  artifactKey: Guid(03317a19291820640a92be348b11f480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Floors_Ceilings/Meshes/MergedCeilingSupport.asset using Guid(03317a19291820640a92be348b11f480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e053cbb11487d27501a72780fa58a8') in 0.030890 seconds
-  Import took 0.034819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 697.906169 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes
-  artifactKey: Guid(0551c635a6806c44d96c3489f7ef627e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes using Guid(0551c635a6806c44d96c3489f7ef627e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04877d4a9c1c9d1d26b5ac8a5a52d4f8') in 0.005120 seconds
-  Import took 0.009054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088561 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Corner_Collider.asset
-  artifactKey: Guid(53a88e6b8cd8d564fafb1797c2f2adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Corner_Collider.asset using Guid(53a88e6b8cd8d564fafb1797c2f2adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0416be726e8a0f674d5fdcd7fa0e1ed4') in 0.030183 seconds
-  Import took 0.033687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Joint_02_Collider.asset
-  artifactKey: Guid(624053aefbbb5854fac3f5debbee8d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Joint_02_Collider.asset using Guid(624053aefbbb5854fac3f5debbee8d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95627236e4c652d71584c279af4150b') in 0.027494 seconds
-  Import took 0.031126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindowFrame_01_snaps002.asset
-  artifactKey: Guid(e72e2b536574b914c887421d4bdce853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindowFrame_01_snaps002.asset using Guid(e72e2b536574b914c887421d4bdce853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd5828e984b8efeefebecddcc044d18') in 0.031037 seconds
-  Import took 0.034124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Top_snaps002.asset
-  artifactKey: Guid(8ad62618ad930d546be9f56862dcbb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Top_snaps002.asset using Guid(8ad62618ad930d546be9f56862dcbb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd413fdb293d42d7c9f7448389133f000') in 0.018111 seconds
-  Import took 0.021848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_Joint_snaps002.asset
-  artifactKey: Guid(634495ba508706f4fab4ddcffc8347b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_Joint_snaps002.asset using Guid(634495ba508706f4fab4ddcffc8347b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c71c9683c6efc314ffec15ce67c8b8') in 0.029784 seconds
-  Import took 0.033272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_01_Corner_snaps002.asset
-  artifactKey: Guid(98cb75f592c120a418554681a9667ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_01_Corner_snaps002.asset using Guid(98cb75f592c120a418554681a9667ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ac2091aa254470e8197ede741521e3') in 0.027802 seconds
-  Import took 0.031030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_01_Corner_Collider.asset
-  artifactKey: Guid(8a3539bb518f19444a272fedc388091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_01_Corner_Collider.asset using Guid(8a3539bb518f19444a272fedc388091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854a5a95d7b2a4c46ce22220911e9124') in 0.028225 seconds
-  Import took 0.032279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Corner_Collider.asset
-  artifactKey: Guid(3e903d5ff06ef564fbc5d7aef894a0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Corner_Collider.asset using Guid(3e903d5ff06ef564fbc5d7aef894a0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03615407e09ff2dadfb82dd87f3f57a') in 0.027950 seconds
-  Import took 0.031893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gale_Wall_01_snaps002.asset
-  artifactKey: Guid(05cb18dca8ad59b479d071f53a1e298c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gale_Wall_01_snaps002.asset using Guid(05cb18dca8ad59b479d071f53a1e298c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f08abf7c841338312c75565ae42ed02') in 0.031656 seconds
-  Import took 0.035285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_Corner_Collider.asset
-  artifactKey: Guid(423cfdc9cf1c7bd4598ac6ae2f42e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_Corner_Collider.asset using Guid(423cfdc9cf1c7bd4598ac6ae2f42e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f235d4ac41716ccb81f1f70967206c') in 0.030104 seconds
-  Import took 0.034002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Joint_01_Collider.asset
-  artifactKey: Guid(7a12c86077bf4f746bbc4ab0ed530392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Joint_01_Collider.asset using Guid(7a12c86077bf4f746bbc4ab0ed530392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fc644ffd36addf4bf29e16593b3846') in 0.029029 seconds
-  Import took 0.033021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Joint_02_snaps002.asset
-  artifactKey: Guid(03fe162f77a26aa4fb8d38326c3def3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Joint_02_snaps002.asset using Guid(03fe162f77a26aa4fb8d38326c3def3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bb22ddefb3ff681dd873e4e92600d9') in 0.032704 seconds
-  Import took 0.035871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Joint_01_Collider.asset
-  artifactKey: Guid(e2b90f5500476fc41b8ef87fbda8984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Joint_01_Collider.asset using Guid(e2b90f5500476fc41b8ef87fbda8984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fb1ae3553b96628840a78fee503f39') in 0.028130 seconds
-  Import took 0.031900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gale_Wall_01_Corner_Collider.asset
-  artifactKey: Guid(f8bfc9b045cbcea409c049c7e344cb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gale_Wall_01_Corner_Collider.asset using Guid(f8bfc9b045cbcea409c049c7e344cb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1c608c0136d71b8693884926989c3d') in 0.034747 seconds
-  Import took 0.038459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Joint_01_snaps002.asset
-  artifactKey: Guid(12b0f9429988bb048b721c565d89c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Joint_01_snaps002.asset using Guid(12b0f9429988bb048b721c565d89c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af485add1dacbe9b9e5764e0755551d0') in 0.028656 seconds
-  Import took 0.032328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindowFrame_02_Collider.asset
-  artifactKey: Guid(4353cb0de7f688b428bbd9dd238fba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindowFrame_02_Collider.asset using Guid(4353cb0de7f688b428bbd9dd238fba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f3739ea92c79fd997e03c09b612318') in 0.030711 seconds
-  Import took 0.033920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallDoorFrame_01_Collider.asset
-  artifactKey: Guid(f2b13f210e158964e8a64864c6e2810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallDoorFrame_01_Collider.asset using Guid(f2b13f210e158964e8a64864c6e2810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8405a6704fe2760d8cfc34d87a0010') in 0.019387 seconds
-  Import took 0.023685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Corner_snaps002.asset
-  artifactKey: Guid(81f1e8beb5351a24b9480210445a2b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Corner_snaps002.asset using Guid(81f1e8beb5351a24b9480210445a2b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdd56d284e1451171ee3eaa06906d16') in 0.033980 seconds
-  Import took 0.038078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_01_snaps002.asset
-  artifactKey: Guid(be0f348fdc92098488c921e49d4d84c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_01_snaps002.asset using Guid(be0f348fdc92098488c921e49d4d84c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e697defca7e0145709adc9284b4c9fad') in 0.028162 seconds
-  Import took 0.031776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Corner_snaps002.asset
-  artifactKey: Guid(82af021324a3d33429e7f56c7abb229c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_Corner_snaps002.asset using Guid(82af021324a3d33429e7f56c7abb229c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9b6dbbfb15168b5f75723d58d8b9a3') in 0.026342 seconds
-  Import took 0.030120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_WallDoorFrame_01_snaps002.asset
-  artifactKey: Guid(73b253996598aa14fb6137ff484ece59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_WallDoorFrame_01_snaps002.asset using Guid(73b253996598aa14fb6137ff484ece59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7a290a15229a8ad6473010266da76c') in 0.031074 seconds
-  Import took 0.034307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindowFrame_02_snaps002.asset
-  artifactKey: Guid(6073363b43082a54a9afed661130332a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindowFrame_02_snaps002.asset using Guid(6073363b43082a54a9afed661130332a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f68900f8c77f318d27f84625415b66a') in 0.035288 seconds
-  Import took 0.038727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_snaps002.asset
-  artifactKey: Guid(230d743c9645b694ea0a337a48709ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_Wall_snaps002.asset using Guid(230d743c9645b694ea0a337a48709ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dfb93d587f4f5f2b176e06f8d57c6e') in 0.027793 seconds
-  Import took 0.031116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_DoorFrame_01_Collider.asset
-  artifactKey: Guid(f9c0fc532bd2ba444bbaf45b20591361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_DoorFrame_01_Collider.asset using Guid(f9c0fc532bd2ba444bbaf45b20591361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c76191dba6b3d58a5ad8f15862ddd6') in 0.027155 seconds
-  Import took 0.030519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Joint_01_snaps002.asset
-  artifactKey: Guid(50badd2dded76b641af25b6f4dd134fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Joint_01_snaps002.asset using Guid(50badd2dded76b641af25b6f4dd134fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7345149106f54e6eeb481a87205b1c0') in 0.029989 seconds
-  Import took 0.033798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_Joint_Collider.asset
-  artifactKey: Guid(95107f768bae22642a7503989283e1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_Joint_Collider.asset using Guid(95107f768bae22642a7503989283e1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcd6aae943a075bd4905b73fdd228f4') in 0.026249 seconds
-  Import took 0.030140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Short_snaps002.asset
-  artifactKey: Guid(62582d6b60370b446b8508614dd89888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Short_snaps002.asset using Guid(62582d6b60370b446b8508614dd89888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0aca9a5e72a2577043e0ecadc85334e') in 0.018819 seconds
-  Import took 0.022077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_WallDoorFrame_01_Collider.asset
-  artifactKey: Guid(1e5569ec28579444da55403f124144fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Quart_WallDoorFrame_01_Collider.asset using Guid(1e5569ec28579444da55403f124144fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac04bc6b0942435e3a899667920f361') in 0.026949 seconds
-  Import took 0.030210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_snaps002.asset
-  artifactKey: Guid(801062c5860dbf946b39dfca0c2820cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_snaps002.asset using Guid(801062c5860dbf946b39dfca0c2820cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f504e6917bf75fca2068d8cc834267b8') in 0.022301 seconds
-  Import took 0.026593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_Corner_snaps002.asset
-  artifactKey: Guid(2b02e1384e32c6e48aab108651153ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_Corner_snaps002.asset using Guid(2b02e1384e32c6e48aab108651153ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fd03aa32c00d47c593d0ac5732185d') in 0.036586 seconds
-  Import took 0.040271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_snaps002.asset
-  artifactKey: Guid(a0a1375d7260d484c9775ffc69c94f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_snaps002.asset using Guid(a0a1375d7260d484c9775ffc69c94f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e41e62e5bf7a7446dc7d327b2f7b2ca') in 0.022728 seconds
-  Import took 0.027394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallDoorFrame_02_Collider.asset
-  artifactKey: Guid(c61b768b2d8fb704691ed565fa2e12a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallDoorFrame_02_Collider.asset using Guid(c61b768b2d8fb704691ed565fa2e12a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfe5a5016da2ec31b5ef353e639a4ba') in 0.033562 seconds
-  Import took 0.038116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindow_01_snaps002.asset
-  artifactKey: Guid(4673b017e1c6daf48bb90aaab771550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindow_01_snaps002.asset using Guid(4673b017e1c6daf48bb90aaab771550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94c58e0efba6d6dc3ba783fc068b664') in 0.039431 seconds
-  Import took 0.043608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Corner_Short_snaps002.asset
-  artifactKey: Guid(2cbb1587c7f0c774e8f0c9df64ef2b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Corner_Short_snaps002.asset using Guid(2cbb1587c7f0c774e8f0c9df64ef2b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f65fcf9a5bf24944ea9780ec9d98ae4') in 0.047266 seconds
-  Import took 0.052372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_DoorFrame_01_snaps002.asset
-  artifactKey: Guid(cd5bd82f6b9e90148a9f3f6065a7d43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gen_Wall_DoorFrame_01_snaps002.asset using Guid(cd5bd82f6b9e90148a9f3f6065a7d43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e32e33d4becf055e3145e96f48d7f9a') in 0.038574 seconds
-  Import took 0.043513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_02_Corner_snaps002.asset
-  artifactKey: Guid(cd0c7bd1be6b0234fac5ff035d165d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_02_Corner_snaps002.asset using Guid(cd0c7bd1be6b0234fac5ff035d165d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2533a0d494590bff9bdb30eaa0c08e7') in 0.036165 seconds
-  Import took 0.039879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallDoorFrame_01_snaps002.asset
-  artifactKey: Guid(1d3d195152f9f3c4f8ffd132642e0276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallDoorFrame_01_snaps002.asset using Guid(1d3d195152f9f3c4f8ffd132642e0276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655053301155caff2bef4e46d7fd4cf3') in 0.026980 seconds
-  Import took 0.031505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gale_Wall_01_Corner_snaps002.asset
-  artifactKey: Guid(b6db7aef229d6aa42996de1a73a5c17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gale_Wall_01_Corner_snaps002.asset using Guid(b6db7aef229d6aa42996de1a73a5c17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae409307dfe1ce84af99ff3c378f588a') in 0.036041 seconds
-  Import took 0.039693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gale_Wall_02_snaps002.asset
-  artifactKey: Guid(4111f1abe13694d4ea4cdab109daf8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Gale_Wall_02_snaps002.asset using Guid(4111f1abe13694d4ea4cdab109daf8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e462654bad1759ec82780c39d262a14d') in 0.030981 seconds
-  Import took 0.034901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Corner_Short_Collider.asset
-  artifactKey: Guid(109539c893bd54940944dd35e9a1b788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_Wall_Corner_Short_Collider.asset using Guid(109539c893bd54940944dd35e9a1b788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a945663f9fe9d0b8cd254824080e7b35') in 0.028639 seconds
-  Import took 0.032288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindow_02_snaps002.asset
-  artifactKey: Guid(29b7e37a02d8f4d449fe5193f1405ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindow_02_snaps002.asset using Guid(29b7e37a02d8f4d449fe5193f1405ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340e5b8eeeed1aaa33f7f0d13ff1dc99') in 0.035219 seconds
-  Import took 0.038985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindowFrame_01_Collider.asset
-  artifactKey: Guid(a92d6104d14142b489c6aa44cb7e8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallWindowFrame_01_Collider.asset using Guid(a92d6104d14142b489c6aa44cb7e8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00743fbcd396174d877da7a1c635fbb7') in 0.032238 seconds
-  Import took 0.036192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_02_Corner_Collider.asset
-  artifactKey: Guid(d7a1ba4de3e713d459bbcd37423a3db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_02_Corner_Collider.asset using Guid(d7a1ba4de3e713d459bbcd37423a3db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08272995d2a9ab5e62292dab37a3ef47') in 0.032190 seconds
-  Import took 0.035666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_02_snaps002.asset
-  artifactKey: Guid(0f0f47a5be1f18a49a1b7279b3bce940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Hale_Wall_02_snaps002.asset using Guid(0f0f47a5be1f18a49a1b7279b3bce940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f78f9b373fc660d6e528ff4003168dc') in 0.028574 seconds
-  Import took 0.032493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallDoorFrame_02_snaps002.asset
-  artifactKey: Guid(b74bb954a9e738440939e3f20e76b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Structure/Walls/Meshes/Deck_WallDoorFrame_02_snaps002.asset using Guid(b74bb954a9e738440939e3f20e76b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd43521a74e7434813edd16fdf65bfab') in 0.022192 seconds
-  Import took 0.026020 seconds .
+  Time since last request: 461.593963 seconds.
+  path: Assets/BlenderAssets/Glock18.blend
+  artifactKey: Guid(6f286b3a97a0f2d418ec06366d069895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/Glock18.blend using Guid(6f286b3a97a0f2d418ec06366d069895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ac36d50339553de1b1c7f257b9c812') in 0.297619 seconds
+  Import took 0.302881 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001589 seconds.
+Registered in 0.000944 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.395 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.6 MB.
+System memory in use after: 76.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 2.653600 ms (FindLiveObjects: 0.221100 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.282500 ms  DeleteObjects: 0.103100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.6 MB.
+System memory in use after: 76.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2032.
+Total: 3.061300 ms (FindLiveObjects: 0.326700 ms CreateObjectMapping: 0.052200 ms MarkObjects: 2.573200 ms  DeleteObjects: 0.107100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1465.141088 seconds.
+  path: Assets/PlayerControler.cs
+  artifactKey: Guid(d4366136ba2473d4184efdae8daa80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControler.cs using Guid(d4366136ba2473d4184efdae8daa80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd27e157345d6b8f7457d344377bb9c') in 0.023634 seconds
+  Import took 0.026975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002869 seconds.
+  path: Assets/PlayerControler.cs
+  artifactKey: Guid(d4366136ba2473d4184efdae8daa80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControler.cs using Guid(d4366136ba2473d4184efdae8daa80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd27e157345d6b8f7457d344377bb9c') in 0.004402 seconds
+  Import took 0.008597 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.7 MB.
+System memory in use after: 76.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2035.
+Total: 3.951400 ms (FindLiveObjects: 0.696900 ms CreateObjectMapping: 0.157600 ms MarkObjects: 2.971400 ms  DeleteObjects: 0.123400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 3.095200 ms (FindLiveObjects: 0.318100 ms CreateObjectMapping: 0.054400 ms MarkObjects: 2.588200 ms  DeleteObjects: 0.132300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1720.772575 seconds.
+  path: Assets/Mirror/Examples/Cloud/PongWithListServer/Prefabs/Ball.prefab
+  artifactKey: Guid(a4b57f17790d9634ea5fd0fe80b214fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Cloud/PongWithListServer/Prefabs/Ball.prefab using Guid(a4b57f17790d9634ea5fd0fe80b214fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42d8b60921aecb9d7704e9c139f1f39') in 0.142034 seconds
+  Import took 0.146403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Mirror/Examples/Pong/Prefabs/Ball.prefab
+  artifactKey: Guid(5f7a7f34494ed40268eff49dbf9168bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong/Prefabs/Ball.prefab using Guid(5f7a7f34494ed40268eff49dbf9168bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5833744eaa971bf170e0be6293c3bc28') in 0.012730 seconds
+  Import took 0.015992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Prefabs/Capsule.prefab
+  artifactKey: Guid(e1971f4a8c7661546bc509b44bd91b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Prefabs/Capsule.prefab using Guid(e1971f4a8c7661546bc509b44bd91b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c62952d4c2cb8fa21f00a5ce0930813') in 0.165331 seconds
+  Import took 0.169446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Prefabs/Cylinder.prefab
+  artifactKey: Guid(12a4c14e672c00b4b840f937d824b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Prefabs/Cylinder.prefab using Guid(12a4c14e672c00b4b840f937d824b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84559182ce7374e24425ae58ac21ae82') in 0.019727 seconds
+  Import took 0.023942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Mirror/Examples/MultipleMatches/Prefabs/CellGUI.prefab
+  artifactKey: Guid(5ab8c221183f0094eb04b7f6eb569e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleMatches/Prefabs/CellGUI.prefab using Guid(5ab8c221183f0094eb04b7f6eb569e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b858ea75af9a93fcbbf8fc43abae5f') in 0.028580 seconds
+  Import took 0.032447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Prefabs/Cube.prefab
+  artifactKey: Guid(4ff300cf6bb3c6342a9552c4f18788c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Prefabs/Cube.prefab using Guid(4ff300cf6bb3c6342a9552c4f18788c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4120cfba2ccdfe4fdfb612f29e8aada1') in 0.020002 seconds
+  Import took 0.023854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075857 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Prefabs/Empty Player.prefab
+  artifactKey: Guid(4ab0a427bdc13244499c6e044ad7eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Prefabs/Empty Player.prefab using Guid(4ab0a427bdc13244499c6e044ad7eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450794391093702df85b889c29b5d82d') in 0.011999 seconds
+  Import took 0.015613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068526 seconds.
+  path: Assets/Mirror/Examples/Room/Prefabs/GamePlayer.prefab
+  artifactKey: Guid(21daf89214c6ee443ad6875b73083c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Room/Prefabs/GamePlayer.prefab using Guid(21daf89214c6ee443ad6875b73083c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d63f2e527eb9f5a3dbee183074d8dc') in 0.028331 seconds
+  Import took 0.032820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.287962 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(f5a1f2b47577d1a4c99f13a93717f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(f5a1f2b47577d1a4c99f13a93717f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1537e32e323a6cc2b5adc1a09c718919') in 0.010615 seconds
+  Import took 0.014269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.737568 seconds.
+  path: Assets/PlayerControler.cs
+  artifactKey: Guid(d4366136ba2473d4184efdae8daa80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControler.cs using Guid(d4366136ba2473d4184efdae8daa80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48f8c9882016f250c6608a91d4002c8') in 0.009345 seconds
+  Import took 0.013573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002626 seconds.
+  path: Assets/PlayerControler.cs
+  artifactKey: Guid(d4366136ba2473d4184efdae8daa80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerControler.cs using Guid(d4366136ba2473d4184efdae8daa80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48f8c9882016f250c6608a91d4002c8') in 0.003550 seconds
+  Import took 0.007784 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 3.602000 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.062700 ms MarkObjects: 3.126500 ms  DeleteObjects: 0.142100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.473940 seconds.
+  path: Assets/PlayerMotor.cs
+  artifactKey: Guid(67c00be16d1bb3f4cbd32deea17118b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMotor.cs using Guid(67c00be16d1bb3f4cbd32deea17118b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05013a72d6479add235e46393bf2f29') in 0.012299 seconds
+  Import took 0.016166 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 3.876200 ms (FindLiveObjects: 0.430700 ms CreateObjectMapping: 0.114900 ms MarkObjects: 3.203700 ms  DeleteObjects: 0.124900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.111593 seconds.
+  path: Assets/Movement.cs
+  artifactKey: Guid(f5a1f2b47577d1a4c99f13a93717f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement.cs using Guid(f5a1f2b47577d1a4c99f13a93717f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb699bfd410ef6a5e6b381b2dc31728') in 0.015517 seconds
+  Import took 0.019865 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 3.420400 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.041700 ms MarkObjects: 3.003400 ms  DeleteObjects: 0.130500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.535900 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(07689d9f94be0bc4d9e82df644d2fcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(07689d9f94be0bc4d9e82df644d2fcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7dff6f3213bf0522fba09798b6d109') in 0.007194 seconds
+  Import took 0.011552 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003549 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
@@ -684,16 +557,218 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Mono: successfully reloaded assembly
-- Completed reload, in  1.208 seconds
+- Completed reload, in  1.139 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1511 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.5 MB.
-System memory in use after: 76.5 MB.
+Unloading 1770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1994.
-Total: 2.959300 ms (FindLiveObjects: 0.281100 ms CreateObjectMapping: 0.053600 ms MarkObjects: 2.510400 ms  DeleteObjects: 0.112800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 3.832800 ms (FindLiveObjects: 0.426700 ms CreateObjectMapping: 0.135500 ms MarkObjects: 3.120300 ms  DeleteObjects: 0.147800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.588811 seconds.
+  path: Assets/Movement.cs
+  artifactKey: Guid(f5a1f2b47577d1a4c99f13a93717f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement.cs using Guid(f5a1f2b47577d1a4c99f13a93717f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a89ce90cdd01268b8af7cc89b0c647') in 0.008756 seconds
+  Import took 0.012374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001891 seconds.
+  path: Assets/Movement.cs
+  artifactKey: Guid(f5a1f2b47577d1a4c99f13a93717f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement.cs using Guid(f5a1f2b47577d1a4c99f13a93717f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a89ce90cdd01268b8af7cc89b0c647') in 0.004370 seconds
+  Import took 0.008556 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 2.793000 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.047200 ms MarkObjects: 2.356500 ms  DeleteObjects: 0.124800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.203 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 3.709000 ms (FindLiveObjects: 0.258600 ms CreateObjectMapping: 0.052600 ms MarkObjects: 3.267200 ms  DeleteObjects: 0.129200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 3.266700 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.788600 ms  DeleteObjects: 0.135800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 3.027100 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.578700 ms  DeleteObjects: 0.125400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.1/Editor/EditorCore/EditorUtility.cs line 575]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 3.264800 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.055500 ms MarkObjects: 2.818800 ms  DeleteObjects: 0.128200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
